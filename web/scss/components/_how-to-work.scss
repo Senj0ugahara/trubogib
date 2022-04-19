@@ -1,0 +1,13 @@
+.how-to-work {
+  padding: 50px 0 100px;
+
+  &__title {
+    margin-bottom: 50px;
+  }
+
+  &__video {
+    display: flex;
+    justify-content: center;
+    height: 614px;
+  }
+}

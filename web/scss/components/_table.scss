@@ -1,0 +1,123 @@
+.table {
+  width: 100%;
+  box-shadow: 1px 4px 15px rgba(0, 0, 0, .1);
+  border-collapse: collapse;
+
+  th, td {
+    width: 33.3333%;
+    border: 3px solid rgba(134, 134, 134, 0.1);
+    vertical-align: top;
+
+    &:first-child {
+      border-left: none;
+    }
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+
+  &__col {
+    padding: 40px 57px 30px;
+  }
+
+  &__empty {
+    border-top: none!important;
+    border-bottom: none!important;
+    padding: 25px 60px 25px;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: var(--text-color);
+
+    span {
+      font-weight: 700;
+    }
+  }
+
+  &__text {
+    position: relative;
+    padding: 15px 24px 15px 68px;
+    border-top: none!important;
+    border-bottom: none!important;
+    background-image: url(../images/cross.svg);
+    background-position: 25px 18px;
+    background-repeat: no-repeat;
+  
+    &--dino {
+      background-image: url(../images/check.svg);
+      
+      .table__desc {
+        font-weight: 600;
+      }
+    }
+  }
+
+  &__desc {
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--text-color);
+
+    span {
+      font-weight: 700; 
+    }
+
+    .colored {
+      color: var(--green-color);
+    }
+
+    .big {
+      font-size: 25px;
+    }
+  }
+
+  &__prices {
+    padding: 32px 0 44px;
+    vertical-align: middle!important;
+    text-align: center;
+
+    &--dino {
+      .table__price--now {
+        margin-bottom: 45px;
+        font-size: 55px;
+        color: var(--green-color);
+      }
+    }
+  }
+
+  &__info {
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: var(--text-color);
+  }
+
+  &__price {
+    display: block;
+
+    &--now {
+      font-weight: 900;
+      font-size: 50px;
+      line-height: 22px;
+      color: #DF2626;
+    }
+
+    &--old {
+      margin-bottom: 15px;
+      padding-left: 62px;
+      font-weight: 900;
+      font-size: 30px;
+      line-height: 22px;
+      text-decoration-line: line-through;
+      color: #A7A7A7;
+    }
+  }
+}

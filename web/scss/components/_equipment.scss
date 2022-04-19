@@ -1,0 +1,105 @@
+.equipment {
+  padding: 40px 0 100px;
+
+  &__title {
+    margin-bottom: 74px;
+  }
+
+  &__content {
+    margin-bottom: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  &__left {
+    span {
+      margin-bottom: 5px;
+      display: block;
+      font-size: 36px;
+      line-height: 44px;
+      color: var(--black-color);
+    }
+  }
+
+  &__desc {
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--black-color);
+  }
+
+  &__list {
+    margin-bottom: 60px;
+  }
+
+  &__item {
+    font-size: 36px;
+    line-height: 44px;
+    color: var(--black-color);
+  }
+
+  &__image {
+    position: relative;
+
+    &::before, &::after {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-repeat: no-repeat;
+      font-size: 20px;
+      line-height: 24px;
+      color: var(--black-color);
+    }
+
+    &::before {
+      content: 'комплектация';
+      position: absolute;
+      left: -175px;
+      bottom: -14px;
+      width: 232px;
+      height: 276px;
+      background-image: url(../images/equipment-complitation.png);
+    }
+
+    &::after {
+      content: '5 подарков';
+      position: absolute;
+      right: 0;
+      bottom: -48px;
+      width: 217px;
+      height: 236px;
+      background-image: url(../images/equipment-gifts.png);
+    }
+  }
+}
+
+.sell-out {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  &__text {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+    color: var(--black-color);
+
+    span {
+      color: #FF0000;
+    }
+  }
+
+  &__btn {
+    width: 226px;
+    height: 56px;
+    background: #F3EE00;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: var(--black-color);
+    text-align: center;
+  }
+}

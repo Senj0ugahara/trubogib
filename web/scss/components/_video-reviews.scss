@@ -1,0 +1,13 @@
+.video-reviews {
+  padding: 40px 0 100px;
+
+  &__title {
+    margin-bottom: 50px;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+}

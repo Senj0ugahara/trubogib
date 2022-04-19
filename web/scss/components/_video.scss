@@ -1,0 +1,37 @@
+.video {
+  &__container {
+    position: relative;
+    border: 2px solid #DBDBDB;
+    border-radius: 5px;
+  }
+
+  &__btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 68px;
+    height: 48px;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    display: flex;
+
+    &:hover {
+      svg path {
+        &:nth-child(1) {
+          fill: #ff0000;
+          fill-opacity: .8;
+        }
+      }
+    }
+  }
+
+  &__title {
+    margin-top: 12px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--text-color);
+    text-align: center;
+  }
+}

@@ -1,0 +1,28 @@
+.header {
+  background-color: #FBFBFB;
+
+  &__container {
+    max-width: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100px;
+  }
+
+  &__nav {
+    margin-left: 106px;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  &__text {
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--text-color);
+  }
+}

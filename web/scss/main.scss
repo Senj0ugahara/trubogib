@@ -1,0 +1,28 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключение мелких компонентов страницы
+@import "./components/nav";
+@import "./components/buy";
+@import "./components/video";
+@import "./components/table";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/hero";
+@import "./components/base-information";
+@import "./components/how-to-work";
+@import "./components/comparison";
+@import "./components/information";
+@import "./components/video-reviews";
+@import "./components/characteristics";
+@import "./components/kit";
+@import "./components/gallery";
+@import "./components/equipment";
+@import "./components/manufacturer";
+@import "./components/reviews";
+@import "./components/delivery";
+@import "./components/footer";

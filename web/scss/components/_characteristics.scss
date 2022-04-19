@@ -1,0 +1,41 @@
+.characteristics {
+  padding: 40px 0 100px;
+
+  &__title {
+    margin-bottom: 90px;
+  }
+
+  &__table {
+    width: 100%;
+    box-shadow: 1px 4px 22px rgba(0, 0, 0, 0.05);
+    border-collapse: collapse;
+    text-align: center;
+
+    &-title {
+      padding: 25px 0px 15px!important;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 37px;
+      color: var(--text-color);
+    }
+
+    &-col {
+      width: 25%;
+      padding: 60px 76px;
+      border: 3px solid rgba(134, 134, 134, 0.1);
+    }
+
+    &-desc {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      color: var(--text-color);
+    }
+
+    &-item {
+      &:not(:last-child) {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
