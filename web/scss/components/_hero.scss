@@ -3,9 +3,18 @@
   padding-top: 46px;
   padding-bottom: 128px;
   background-color: var(--light-color);
-  background-image: url(../images/hero-bg.png);
-  background-position: bottom center;
-  background-repeat: no-repeat;
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 100%;
+    height: 46px;
+    background-image: url(../images/hero-bg.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+  }
 
   &__container {
     display: flex;

@@ -553,7 +553,7 @@ img {
 }
 
 .header__container {
-  max-width: none;
+  max-width: 1780px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -592,6 +592,15 @@ img {
   padding-top: 46px;
   padding-bottom: 128px;
   background-color: var(--light-color);
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  width: 100%;
+  height: 46px;
   background-image: url(../images/hero-bg.png);
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -676,6 +685,7 @@ img {
 
 .base-information {
   padding: 20px 0 100px;
+  background-color: #fbfbfb;
 }
 
 .base-information__left {
