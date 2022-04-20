@@ -48,6 +48,9 @@
             <button class="btn-reset btn nav-contacts__btn">Заказать звонок</button>
           </div>
         </nav>
+        <button class="btn-reset header__burger">
+          <span class="header__burger-line"></span>
+        </button>
       </div>
     </header>
 
@@ -120,8 +123,53 @@
         <div class="container">
           <h2 class="title title--center set__title">DINO — совершенство в каждой детали</h2>
           <p class="set__subtitle">Узнайте, что делает DINO особенным</p>
-          <div class="set__content">
-            <div class="set__left">
+          <div class="set__image">
+            <picture>
+              <source>
+              <img src="images/set-img.png" alt="image">
+            </picture>
+            <div class="set__item set-item set-item_left set-item_1">
+              <a class="set-item__link" data-fancybox data-src="#set-item_1" href="javascript:;">
+                <span>Улучшенный винт поворотной рамы</span>
+              </a>
+            </div>
+            <div class="set__item set-item set-item_left set-item_2">
+              <a class="set-item__link" data-fancybox data-src="#set-item_2" href="javascript:;">
+                <span>Уникальная поворотная рама</span>
+              </a>
+            </div>
+            <div class="set__item set-item set-item_left set-item_3">
+              <a class="set-item__link" data-fancybox data-src="#set-item_3" href="javascript:;">
+                <span>Закалённый прижимной валок</span>
+              </a>
+            </div>
+            <div class="set__item set-item set-item_left set-item_4">
+              <a class="set-item__link" data-fancybox data-src="#set-item_4" href="javascript:;">
+                <span>Основная сверхпрочная рама</span>
+              </a>
+            </div>
+            <div class="set__item set-item_right set-item set-item_5">
+              <a class="set-item__link" data-fancybox data-src="#set-item_5" href="javascript:;">
+                <span>Мощные воронёные шестерни</span>
+              </a>
+            </div>
+            <div class="set__item set-item_right set-item set-item_6">
+              <a class="set-item__link" data-fancybox data-src="#set-item_6" href="javascript:;">
+                <span>Специальные регулировочные шайбы</span>
+              </a>
+            </div>
+            <div class="set__item set-item_right set-item set-item_7">
+              <a class="set-item__link" data-fancybox data-src="#set-item_7" href="javascript:;">
+                <span>Закалённые опорные валки</span>
+              </a>
+            </div>
+            <div class="set__item set-item_right set-item set-item_8">
+              <a class="set-item__link" data-fancybox data-src="#set-item_8" href="javascript:;">
+                <span>Инновационна регулируемая ручка</span>
+              </a>
+            </div>
+
+            <!-- <div class="set__left">
               <div class="set__item set-item set-item_1">
                 <a class="set-item__link" data-fancybox data-src="#set-item_1" href="javascript:;">
                   <span>Улучшенный винт поворотной рамы</span>
@@ -167,7 +215,7 @@
                   <span>Инновационна регулируемая ручка</span>
                 </a>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="set-item__desc set-item__desc_1" id="set-item_1">
@@ -373,12 +421,12 @@
         <div class="container">
           <h2 class="title title--center how-to-work__title">Как работает трубогиб DINO?</h2>
           <div class="how-to-work__video video">
-            <a class="video__item" data-fancybox="https://youtu.be/H3Ftbhz3ghY" href="https://youtu.be/H3Ftbhz3ghY">
-              <div class="video__container">
+            <a class="video__item" data-fancybox="https://youtu.be/myQt-V_tULo" href="https://youtu.be/myQt-V_tULo">
+              <div class="video__container how-to-work__video-container">
                 <div class="video__link">
                   <picture>
-                    <source class="" type="image/webp" data-src="https://i.ytimg.com/vi_webp/H3Ftbhz3ghY/hqdefault.webp" srcset="https://i.ytimg.com/vi_webp/H3Ftbhz3ghY/hqdefault.webp">
-                    <img class="video__media" data-src="https://i.ytimg.com/vi/H3Ftbhz3ghY/hqdefault.jpg" alt="" src="https://i.ytimg.com/vi/H3Ftbhz3ghY/hqdefault.jpg">
+                    <source class="" type="image/webp" data-src="https://i.ytimg.com/vi_webp/myQt-V_tULo/hqdefault.webp" srcset="https://i.ytimg.com/vi_webp/myQt-V_tULo/hqdefault.webp">
+                    <img class="video__media" data-src="https://i.ytimg.com/vi/myQt-V_tULo/hqdefault.jpg" alt="" src="https://i.ytimg.com/vi/myQt-V_tULo/hqdefault.jpg">
                   </picture>
                 </div>
                 <button class="btn-reset video__btn">
@@ -454,14 +502,16 @@
                   </span>
                 </td>
               </tr>
+            </thead>
+            <tbody>
               <tr>
-                <td class="table__col table__image">
+                <td data-label="Неоправданно дорогой ручной трубогиб" class="table__col table__image">
                   <img src="images/comparison-1.png" alt="image">
                 </td>
-                <td class="table__col table__image">
+                <td data-label="Цепной трубогиб из швеллеров" class="table__col table__image">
                   <img src="images/comparison-2.png" alt="image">
                 </td>
-                <td class="table__col table__image">
+                <td data-label="DINO 2022 с уникальной рамой и 3 ведущими валками" class="table__col table__image">
                   <img src="images/comparison-3.png" alt="image">
                 </td>
               </tr>
@@ -471,19 +521,19 @@
                 <td class="table__empty"></td>
               </tr>
               <tr>
-                <td class="table__col table__text">
+                <td data-label="Неоправданно дорогой ручной трубогиб" class="table__col table__text">
                   <p class="table__desc">
                     Минимальный радиус колец&nbsp;&mdash; 500&nbsp;мм. Ручка винта помешает согнуть профиль
                     в&nbsp;кольца меньшего размера.
                   </p>
                 </td>
-                <td class="table__col table__text">
+                <td data-label="Цепной трубогиб из швеллеров" class="table__col table__text">
                   <p class="table__desc">
                     Минимальный радиус колец&nbsp;&mdash; 250&nbsp;мм. Ручка винта помешает согнуть профиль
                     в&nbsp;кольца меньшего размера.
                   </p>
                 </td>
-                <td class="table__col table__text table__text--dino">
+                <td data-label="DINO 2022 с уникальной рамой и 3 ведущими валками" class="table__col table__text table__text--dino">
                   <p class="table__desc">
                     Минимальный радиус колец&nbsp;&mdash; всего 100&nbsp;мм. Винт не&nbsp;имеет ручки, которая
                     мешала&nbsp;бы сгибать профиль в&nbsp;маленькие кольца.
@@ -491,17 +541,17 @@
                 </td>
               </tr>
               <tr>
-                <td class="table__col table__text">
+                <td data-label="Неоправданно дорогой ручной трубогиб" class="table__col table__text">
                   <p class="table__desc">
                     Поворачивать винт тяжело, потому что он&nbsp;двигает прижимной валок.
                   </p>
                 </td>
-                <td class="table__col table__text">
+                <td data-label="Цепной трубогиб из швеллеров" class="table__col table__text">
                   <p class="table__desc">
                     Поворачивать винт тяжело, потому что он&nbsp;двигает прижимной валок.
                   </p>
                 </td>
-                <td class="table__col table__text table__text--dino">
+                <td data-label="DINO 2022 с уникальной рамой и 3 ведущими валками" class="table__col table__text table__text--dino">
                   <p class="table__desc">
                     Винт двигает опорный валок, поэтому <span class="colored">крутить его в&nbsp;2&nbsp;раза
                       легче</span>, чем в&nbsp;других трубогибах.
@@ -509,19 +559,19 @@
                 </td>
               </tr>
               <tr>
-                <td class="table__col table__text">
+                <td data-label="Неоправданно дорогой ручной трубогиб" class="table__col table__text">
                   <p class="table__desc">
                     Прижимной механизм в&nbsp;виде клети. Люфтит, царапает корпус и&nbsp;со&nbsp;смещением прижимает
                     заготовки.
                   </p>
                 </td>
-                <td class="table__col table__text">
+                <td data-label="Цепной трубогиб из швеллеров" class="table__col table__text">
                   <p class="table__desc">
                     Прижимной механизм в&nbsp;виде клети. Люфтит, царапает корпус и&nbsp;со&nbsp;смещением прижимает
                     заготовки.
                   </p>
                 </td>
-                <td class="table__col table__text table__text--dino">
+                <td data-label="DINO 2022 с уникальной рамой и 3 ведущими валками" class="table__col table__text table__text--dino">
                   <p class="table__desc">
                     <span>Прижимной механизм в&nbsp;виде уникальной поворотной рамы.</span> Центральный валок закреплён,
                     поэтому строго параллельно прижимает заготовки.
@@ -529,19 +579,19 @@
                 </td>
               </tr>
               <tr>
-                <td class="table__col table__text">
+                <td data-label="Неоправданно дорогой ручной трубогиб" class="table__col table__text">
                   <p class="table__desc">
                     Миллиметровая линейка. Не&nbsp;гарантирует 100% повторяемости дуг. Просто наклейка, поэтому
                     со&nbsp;временем отваливается от&nbsp;корпуса.
                   </p>
                 </td>
-                <td class="table__col table__text">
+                <td data-label="Цепной трубогиб из швеллеров" class="table__col table__text">
                   <p class="table__desc">
                     Миллиметровая линейка. Не&nbsp;гарантирует 100% повторяемости дуг. Просто наклейка, поэтому
                     со&nbsp;временем отваливается от&nbsp;корпуса.
                   </p>
                 </td>
-                <td class="table__col table__text table__text--dino">
+                <td data-label="DINO 2022 с уникальной рамой и 3 ведущими валками" class="table__col table__text table__text--dino">
                   <p class="table__desc">
                     Повторяемость дуг зависит от&nbsp;радиусной линейки. С&nbsp;ней легко получать идеально ровные
                     одинаковые дуги. Сделана из&nbsp;металла и&nbsp;надёжно закреплена на&nbsp;корпусе.
@@ -549,19 +599,19 @@
                 </td>
               </tr>
               <tr>
-                <td class="table__col table__text">
+                <td data-label="Неоправданно дорогой ручной трубогиб" class="table__col table__text">
                   <p class="table__desc">
                     Из-за слабого трения заготовки часто проскальзывают между валками. У&nbsp;станка всего
                     1&nbsp;приводной валок из&nbsp;3-х.
                   </p>
                 </td>
-                <td class="table__col table__text">
+                <td data-label="Цепной трубогиб из швеллеров" class="table__col table__text">
                   <p class="table__desc">
                     Из-за малого трения широкие заготовки могут проскальзывать между валками. У&nbsp;станка
                     2&nbsp;приводных валка из&nbsp;3-х.
                   </p>
                 </td>
-                <td class="table__col table__text table__text--dino">
+                <td data-label="DINO 2022 с уникальной рамой и 3 ведущими валками" class="table__col table__text table__text--dino">
                   <p class="table__desc">
                     Даже широкие и&nbsp;толстостенные профили не&nbsp;проскальзывают при прокате.&nbsp;3&nbsp;приводных
                     валка из&nbsp;3-х. Трение в&nbsp;2&nbsp;раза больше, чем у&nbsp;станков с&nbsp;двумя ведущими
@@ -570,19 +620,19 @@
                 </td>
               </tr>
               <tr>
-                <td class="table__col table__text">
+                <td data-label="Неоправданно дорогой ручной трубогиб" class="table__col table__text">
                   <p class="table__desc">
                     Дешёвая в&nbsp;производстве рама из&nbsp;боковин. Стянута хлипкими шпильками, что нарушает
                     параллельность валков, поэтому дуги получаются кривыми.
                   </p>
                 </td>
-                <td class="table__col table__text">
+                <td data-label="Цепной трубогиб из швеллеров" class="table__col table__text">
                   <p class="table__desc">
                     Дешёвая в&nbsp;производстве рама из&nbsp;боковин. Стянута хлипкими шпильками, что нарушает
                     параллельность валков, поэтому дуги получаются кривыми.
                   </p>
                 </td>
-                <td class="table__col table__text table__text--dino">
+                <td data-label="DINO 2022 с уникальной рамой и 3 ведущими валками" class="table__col table__text table__text--dino">
                   <p class="table__desc">
                     Эргономичная рама со&nbsp;сварными рёбрами жёсткости. Валки абсолютно соосны, поэтому профиль
                     не&nbsp;смещается при прокате.
@@ -590,19 +640,19 @@
                 </td>
               </tr>
               <tr>
-                <td class="table__col table__text">
+                <td data-label="Неоправданно дорогой ручной трубогиб" class="table__col table__text">
                   <p class="table__desc">
                     Обычная поворотная ручка. Рукоять далеко от&nbsp;оси, поэтому нужно больше оборотов, чтобы прокатать
                     профиль.
                   </p>
                 </td>
-                <td class="table__col table__text">
+                <td data-label="Цепной трубогиб из швеллеров" class="table__col table__text">
                   <p class="table__desc">
                     Обычная поворотная ручка. Рукоять далеко от&nbsp;оси, поэтому нужно больше оборотов, чтобы прокатать
                     профиль.
                   </p>
                 </td>
-                <td class="table__col table__text table__text--dino">
+                <td data-label="DINO 2022 с уникальной рамой и 3 ведущими валками" class="table__col table__text table__text--dino">
                   <p class="table__desc">
                     Регулируемая поворотная ручка. Рукоять можно ставить ближе к&nbsp;оси, чтобы совершать меньше
                     оборотов. <span class="colored">Скорость проката выше на&nbsp;<span class="big">160%</span></span>
@@ -611,22 +661,22 @@
                 </td>
               </tr>
               <tr>
-                <td class="table__col table__prices">
+                <td data-label="Неоправданно дорогой ручной трубогиб" class="table__col table__prices">
                   <p class="table__info">в среднем</p>
                   <span class="table__price table__price--now">35 500 ₽</span>
                 </td>
-                <td class="table__col table__prices">
+                <td data-label="Цепной трубогиб из швеллеров" class="table__col table__prices">
                   <p class="table__info">в среднем</p>
                   <span class="table__price table__price--now">11 500 ₽</span>
                 </td>
-                <td class="table__col table__prices table__prices--dino">
+                <td data-label="DINO 2022 с уникальной рамой и 3 ведущими валками" class="table__col table__prices table__prices--dino">
                   <p class="table__info">по акции</p>
                   <span class="table__price table__price--old">14 990 ₽</span>
                   <span class="table__price table__price--now">7 990 ₽</span>
                   <button class="btn-reset btn">Заказать</button>
                 </td>
               </tr>
-            </thead>
+            </tbody>
           </table>
         </div>
       </section>

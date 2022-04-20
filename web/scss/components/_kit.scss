@@ -56,7 +56,7 @@
       color: var(--text-color);
 
       &:not(:last-child) {
-        margin-bottom: 38px;
+        margin-bottom: 10px;
       }
 
       span {
@@ -65,7 +65,7 @@
 
       &_two {
         &:not(:last-child) {
-          margin-bottom: 20px;
+          margin-bottom: 10px;
         }
       }
     }
