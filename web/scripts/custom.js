@@ -26,6 +26,19 @@ $(document).ready(function() {
       $('.information__content > div[filter=' +$(this).attr('filter') + ']').show(300);
     };
   });
+
+  // images 
+  if(window.outerWidth <= 1429) {
+    $('.base-information__container').append('<div class="base-information__image"><img src="images/base-information-img.png" alt="image"></div>');
+  };
+
+  if(window.outerWidth <= 1199) {
+    $('.main-title').append('<img src="images/hero-img.png" alt="image">');
+  };
+
+  if(window.outerWidth <= 1199) {
+    $('.base-information__title').append('<img src="images/base-information-img.png" alt="image">');
+  };
 });
 
 const swiper = new Swiper('.swiper', {
@@ -45,14 +58,10 @@ const swiper = new Swiper('.swiper', {
     },
 
     991: {
-      slidesPerView: 2,
-    },
-
-    1199: {
       slidesPerView: 3,
     },
 
-    1400: {
+    1650: {
       slidesPerView: 4,
     }
   },

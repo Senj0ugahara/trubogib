@@ -1,4 +1,4 @@
-.characteristics {
+.characteristics-section {
   padding: 40px 0 100px;
 
   &__title {
@@ -26,13 +26,16 @@
     }
 
     &-desc {
-      font-weight: 400;
-      font-size: 20px;
+      font-size: 18px;
       line-height: 28px;
       color: var(--text-color);
     }
 
     &-item {
+      font-size: 18px;
+      line-height: 28px;
+      color: var(--text-color);
+      
       &:not(:last-child) {
         margin-bottom: 15px;
       }

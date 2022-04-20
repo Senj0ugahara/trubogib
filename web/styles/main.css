@@ -239,6 +239,49 @@ img {
   text-align: center;
 }
 
+@media (min-width: 480px) {
+  .container {
+    max-width: none;
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1550px) {
+  .container {
+    max-width: var(--container-width);
+  }
+}
+
 .nav {
   width: 100%;
   display: -webkit-box;
@@ -328,7 +371,7 @@ img {
 }
 
 .buy__price--old {
-  margin-bottom: 10px;
+  margin-bottom: 16px;
   padding-left: 60px;
   font-weight: 900;
   font-size: 30px;
@@ -1103,15 +1146,15 @@ img {
   grid-gap: 30px;
 }
 
-.characteristics {
+.characteristics-section {
   padding: 40px 0 100px;
 }
 
-.characteristics__title {
+.characteristics-section__title {
   margin-bottom: 90px;
 }
 
-.characteristics__table {
+.characteristics-section__table {
   width: 100%;
   -webkit-box-shadow: 1px 4px 22px rgba(0, 0, 0, 0.05);
           box-shadow: 1px 4px 22px rgba(0, 0, 0, 0.05);
@@ -1119,7 +1162,7 @@ img {
   text-align: center;
 }
 
-.characteristics__table-title {
+.characteristics-section__table-title {
   padding: 25px 0px 15px !important;
   font-weight: 600;
   font-size: 30px;
@@ -1127,20 +1170,25 @@ img {
   color: var(--text-color);
 }
 
-.characteristics__table-col {
+.characteristics-section__table-col {
   width: 25%;
   padding: 60px 76px;
   border: 3px solid rgba(134, 134, 134, 0.1);
 }
 
-.characteristics__table-desc {
-  font-weight: 400;
-  font-size: 20px;
+.characteristics-section__table-desc {
+  font-size: 18px;
   line-height: 28px;
   color: var(--text-color);
 }
 
-.characteristics__table-item:not(:last-child) {
+.characteristics-section__table-item {
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--text-color);
+}
+
+.characteristics-section__table-item:not(:last-child) {
   margin-bottom: 15px;
 }
 
@@ -1397,6 +1445,7 @@ img {
 }
 
 .sell-out__text {
+  margin: 0;
   font-weight: 800;
   font-size: 32px;
   line-height: 39px;
@@ -1738,4 +1787,3 @@ img {
 .footer-privacy__link:not(:last-child) {
   margin-bottom: 10px;
 }
-/*# sourceMappingURL=main.css.map */
