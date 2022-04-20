@@ -39,6 +39,11 @@ $(document).ready(function() {
   if(window.outerWidth <= 1199) {
     $('.base-information__title').append('<img src="images/base-information-img.png" alt="image">');
   };
+
+  // set
+  $('[data-fancybox="set"]').fancybox({
+    'arrows' : false,
+  });
 });
 
 const swiper = new Swiper('.swiper', {
