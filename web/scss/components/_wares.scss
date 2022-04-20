@@ -2,15 +2,18 @@
   padding: 40px 0 100px;
 
   &__title {
+    margin: 0;
     margin-bottom: 20px;
+    font-size: 60px;
+    line-height: 76px;
   }
 
   &__subtitle {
     margin: 0;
     margin-bottom: 50px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
     color: var(--text-color);
     text-align: center;
   }
