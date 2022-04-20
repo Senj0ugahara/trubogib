@@ -1733,6 +1733,47 @@ img {
   font-weight: 600;
 }
 
+.wares {
+  padding: 40px 0 100px;
+}
+
+.wares__title {
+  margin-bottom: 20px;
+}
+
+.wares__subtitle {
+  margin: 0;
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.wares-table {
+  width: 100%;
+  background-color: var(--light-color);
+  -webkit-box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.1);
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.wares-table__col {
+  width: 33.333%;
+  padding: 60px 76px;
+  border: 3px solid rgba(134, 134, 134, 0.1);
+}
+
+.wares-table__title {
+  padding: 15px !important;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  color: var(--text-color);
+}
+
 .footer {
   padding: 186px 0;
   background-color: var(--light-color);
