@@ -780,6 +780,11 @@ img {
   padding: 50px 0 100px;
 }
 
+.comparison__title {
+  margin: 0;
+  margin-bottom: 50px;
+}
+
 .information {
   padding-bottom: 100px;
 }
@@ -1775,6 +1780,10 @@ img {
   width: 33.333%;
   padding: 60px 76px;
   border: 3px solid rgba(134, 134, 134, 0.1);
+}
+
+.wares-table__col--green {
+  border: 3px solid var(--green-color);
 }
 
 .wares-table__title {
