@@ -222,6 +222,52 @@
         padding-top: 70px;
       }
     }
+
+    &_one {
+      .information-item__container--first {
+        background-image: url(../images/information/information-mobile-1.png);
+      }
+  
+      .information-item__container--second {
+        background-image: url(../images/information/information-mobile-2.png);
+      }
+  
+      .information-item__container--third {
+        background-image: url(../images/information/information-mobile-3.png);
+      }
+  
+      .information-item__container--fourth {
+        background-image: url(../images/information/information-mobile-4.png);
+      }
+    }
+  
+    &_two {
+      .information-item__container--first {
+        background-image: url(../images/information/information-mobile-5.png);
+      }
+  
+      .information-item__container--second {
+        background-image: url(../images/information/information-mobile-6.png);
+      }
+  
+      .information-item__container--third {
+        background-image: url(../images/information/information-mobile-7.png);
+      }
+    }
+  
+    &_three {
+      .information-item__container--first {
+        background-image: url(../images/information/information-mobile-8.png);
+      }
+
+      .information-item__container--second {
+        background-image: url(../images/information/information-mobile-9.png);
+      }
+
+      .information-item__container--fourth {
+        background-image: url(../images/information/information-mobile-14.png);
+      }
+    }
   }
 
   .characteristics-section {
