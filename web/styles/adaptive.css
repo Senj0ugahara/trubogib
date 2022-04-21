@@ -675,6 +675,9 @@
   .information__btn:not(:last-child) {
     margin-bottom: 15px;
   }
+  .information-item__container {
+    padding: 300px 20px 70px;
+  }
   .information-item_three .information-item__container--second .information-item__object:nth-child(2) {
     margin-left: 0;
   }
@@ -805,7 +808,7 @@
     line-height: 30px;
   }
   .information-item__container {
-    padding: 350px 20px 80px;
+    padding: 350px 10px 80px;
     background-position: top 70px center !important;
   }
   .information-item__heading {
@@ -818,8 +821,14 @@
   .information-item__desc .big {
     font-size: 20px;
   }
+  .information-item__list {
+    padding-left: 20px;
+  }
   .information-item__list span {
     font-size: 18px;
+  }
+  .information-item__list_not-decoration {
+    padding-left: 0;
   }
   .information-item__object {
     font-size: 16px;

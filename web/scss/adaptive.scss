@@ -885,6 +885,10 @@
   }
 
   .information-item {
+    &__container {
+      padding: 300px 20px 70px;
+    }
+
     &_three {
       .information-item__container--second {
         .information-item__object:nth-child(2) {
@@ -1047,7 +1051,7 @@
     }
 
     &__container {
-      padding: 350px 20px 80px;
+      padding: 350px 10px 80px;
       background-position: top 70px center !important;
     }
 
@@ -1065,8 +1069,14 @@
     }
 
     &__list {
+      padding-left: 20px;
+
       span {
         font-size: 18px;
+      }
+
+      &_not-decoration {
+        padding-left: 0;
       }
     }
 
