@@ -287,7 +287,7 @@
   }
 
   .gallery {
-    &__items{
+    &__items {
       grid-template-rows: repeat(3, 144px);
     }
   }
@@ -554,8 +554,9 @@
   }
 
   .gallery {
-    &__items{
-      grid-template-rows: repeat(3, 115px);
+    &__item {
+      width: 50%;
+      height: 300px;
     }
   }
 
@@ -789,12 +790,12 @@
     }
   }
 
-  .gallery {
-    &__items{
-      gap: 20px;
-      grid-template-rows: repeat(3, 88px);
-    }
-  }
+  // .gallery {
+  //   &__items{
+  //     gap: 20px;
+  //     grid-template-rows: repeat(3, 88px);
+  //   }
+  // }
 
   .equipment {
     &__content {
@@ -964,12 +965,12 @@
     }
   }
 
-  .gallery {
-    &__items {
-      gap: 10px;
-      grid-template-rows: repeat(3, 70px);
-    }
-  }
+  // .gallery {
+  //   &__items {
+  //     gap: 10px;
+  //     grid-template-rows: repeat(3, 70px);
+  //   }
+  // }
 
   .equipment {
     &__left {
@@ -1005,12 +1006,12 @@
     }
   }
 
-  .gallery {
-    &__items{
-      gap: 5px;
-      grid-template-rows: repeat(3, auto);
-    }
-  }
+  // .gallery {
+  //   &__items{
+  //     gap: 5px;
+  //     grid-template-rows: repeat(3, auto);
+  //   }
+  // }
 
   .delivery {
     &__container {
@@ -1019,14 +1020,20 @@
 
     &__col {
       &:first-child {
-        order: 2;
-        margin-top: 40px;
+        display: none;
       }
 
       &:nth-child(2) {
         margin: 0 auto;
         text-align: center;
       }
+    }
+
+    &__list {
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     &__price {
@@ -1195,13 +1202,66 @@
   }
 
   .gallery {
-    padding-bottom: 0;
+    &__item {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 3px;
+
+      img {
+        width: 100%;
+      }
+    }
   }
 
   .equipment {
-    &__desc {
+    &__title {
+      margin-bottom: 15px;
       font-size: 20px;
-      line-height: 30px;
+      line-height: 25px;
+    }
+
+    &__desc {
+      margin-bottom: 10px;
+      font-size: 18px;
+      line-height: 28px;
+    }
+
+    &__content {
+      margin-bottom: 20px;
+    }
+
+    &__image {
+      margin-bottom: 24px;
+    }
+
+    &__left {
+      span {
+        font-size: 18px;
+        font-weight: 600;
+      }
+    }
+
+    &__list {
+      margin-top: 0;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &__item {
+      font-size: 18px;
+      line-height: 28px;
+
+      &:not(:last-child) {
+        margin-bottom: 5px;
+      }
+    }
+
+    .sell-out {
+      &__text {
+        display: none;
+      }
     }
   }
 

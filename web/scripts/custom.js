@@ -40,6 +40,24 @@ $(document).ready(function() {
     $('.base-information__title').append('<img src="images/base-information-img.png" alt="image">');
   };
 
+  if(window.outerWidth <= 576) {
+    $('.delivery__info-container').append(`
+    <div class="delivery__info">
+    <div class="delivery__company">
+      <img src="images/cdek-logo.png" alt="image">
+      <img src="images/dpd-logo.png" alt="image">
+      <img src="images/pochta-rossii-logo.png" alt="image">
+    </div>
+    <ul class="list-reset delivery__list">
+      Транспортной компанией или почтой.<br>
+      Курьером в&nbsp;пункт выдачи или прямо домой.
+      <li class="delivery__item">проверка перед оплатой</li>
+      <li class="delivery__item">оплата при получении</li>
+    </ul>
+  </div>
+    `);
+  };
+
   // set
   $('[data-fancybox="set"]').fancybox({
     'arrows' : false,
