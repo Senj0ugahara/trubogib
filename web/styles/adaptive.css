@@ -766,6 +766,9 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .swiper-button-prev, .swiper-button-next {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
@@ -880,9 +883,6 @@
   }
   .manufacturer__title {
     font-size: 30px;
-  }
-  .swiper-button-prev, .swiper-button-next {
-    display: none;
   }
   .footer-phone__link {
     font-size: 30px;

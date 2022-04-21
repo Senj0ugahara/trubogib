@@ -994,6 +994,10 @@
       justify-content: center;
     }
   }
+
+  .swiper-button-prev, .swiper-button-next {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1166,10 +1170,6 @@
     &__title {
       font-size: 30px;
     }
-  }
-
-  .swiper-button-prev, .swiper-button-next {
-    display: none;
   }
 
   .footer-phone {
