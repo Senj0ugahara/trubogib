@@ -1010,13 +1010,51 @@ img {
 .set-item__desc {
   display: none;
   background-position: bottom right;
-  background-size: 40%;
+  background-size: 50%;
   background-repeat: no-repeat;
-  background-image: url(../images/set-item/set-item-1.png);
 }
 
 .set-item__desc_1 {
   background-image: url(../images/set-item/set-item-1.png);
+  background-size: 40%;
+  background-position: bottom right 100px;
+}
+
+.set-item__desc_2 {
+  background-image: url(../images/set-item/set-item-2.png);
+}
+
+.set-item__desc_3 {
+  background-image: url(../images/set-item/set-item-3.png);
+}
+
+.set-item__desc_4 {
+  background-image: url(../images/set-item/set-item-4.png);
+  background-size: 40%;
+}
+
+.set-item__desc_5 {
+  background-image: url(../images/set-item/set-item-5.png);
+}
+
+.set-item__desc_6 {
+  background-image: url(../images/set-item/set-item-6.png);
+  background-size: 30%;
+  background-position: bottom right 100px;
+}
+
+.set-item__desc_7 {
+  background-image: url(../images/set-item/set-item-7.png);
+}
+
+.set-item__desc_8 {
+  background-image: url(../images/set-item/set-item-8.png);
+  background-size: 40%;
+  background-position: bottom right;
+}
+
+.set-item__desc-image {
+  display: none;
 }
 
 .set-item__title {

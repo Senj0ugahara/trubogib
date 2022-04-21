@@ -356,6 +356,9 @@
   .set-item_8 {
     top: 215px;
   }
+  .set-item__desc_7 {
+    background-size: 40%;
+  }
   .how-to-work__video {
     width: 100%;
     height: 100%;
@@ -527,6 +530,43 @@
   }
   .set-item_8 .set-item__link span::before {
     content: '8';
+  }
+  .set-item__desc {
+    background-image: none;
+  }
+  .set-item__desc .container {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .set-item__desc-image {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .set-item__name {
+    text-align: center;
+  }
+  .set-item__text {
+    max-width: none;
+    text-align: center;
+  }
+  .set-item__btn {
+    position: absolute;
+    top: 165px;
+  }
+  .set-item__btn-prev {
+    left: 0;
+  }
+  .set-item__btn-next {
+    right: 0;
   }
   .wares__subtitle {
     font-size: 30px;
@@ -791,6 +831,12 @@
   }
 }
 
+@media (max-width: 551px) {
+  .set-item__btn {
+    top: 220px;
+  }
+}
+
 @media (max-width: 480px) {
   .main-title {
     font-size: 30px;
@@ -814,6 +860,9 @@
   .set__subtitle {
     font-size: 20px;
     line-height: 30px;
+  }
+  .set-item__btn {
+    top: 160px;
   }
   .wares {
     padding-bottom: 60px;
@@ -944,5 +993,23 @@
   .footer-phone__link {
     font-size: 30px;
     line-height: 30px;
+  }
+}
+
+@media (max-width: 446.98px) {
+  .set-item__btn {
+    top: 200px;
+  }
+}
+
+@media (max-width: 358.98px) {
+  .set-item__btn {
+    top: 240px;
+  }
+  .set-item__btn-prev {
+    left: -10px;
+  }
+  .set-item__btn-next {
+    right: -10px;
   }
 }

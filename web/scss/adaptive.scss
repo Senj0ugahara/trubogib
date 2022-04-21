@@ -480,6 +480,12 @@
     &_8 {
       top: 215px;
     }
+
+    &__desc {
+      &_7 {
+        background-size: 40%;
+      }
+    }
   }
 
   .how-to-work {
@@ -709,6 +715,44 @@
         content: '8';
       }
     }
+
+    &__desc {
+      background-image: none;
+
+      .container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      &-image {
+        display: block;
+        margin-bottom: 20px;
+      }
+    }
+
+    &__name {
+      text-align: center;
+    }
+
+    &__text {
+      max-width: none;
+      text-align: center;
+    }
+
+    &__btn {
+      position: absolute;
+      top: 165px;
+
+      &-prev {
+        left: 0;
+      }
+
+      &-next {
+        right: 0;
+      }
+    }
   }
 
   .wares {
@@ -788,13 +832,6 @@
       grid-template-columns: repeat(2, 1fr);
     }
   }
-
-  // .gallery {
-  //   &__items{
-  //     gap: 20px;
-  //     grid-template-rows: repeat(3, 88px);
-  //   }
-  // }
 
   .equipment {
     &__content {
@@ -964,13 +1001,6 @@
     }
   }
 
-  // .gallery {
-  //   &__items {
-  //     gap: 10px;
-  //     grid-template-rows: repeat(3, 70px);
-  //   }
-  // }
-
   .equipment {
     &__left {
       span {
@@ -1005,13 +1035,6 @@
     }
   }
 
-  // .gallery {
-  //   &__items{
-  //     gap: 5px;
-  //     grid-template-rows: repeat(3, auto);
-  //   }
-  // }
-
   .delivery {
     &__container {
         flex-direction: column;
@@ -1045,6 +1068,14 @@
   }
 }
 
+@media (max-width: 551px) {
+  .set-item {
+    &__btn {
+      top: 220px
+    }
+  }
+}
+
 @media (max-width: 480px) {
   .main-title {
     font-size: 30px;
@@ -1074,6 +1105,12 @@
     &__subtitle {
       font-size: 20px;
       line-height: 30px;
+    }
+  }
+
+  .set-item {
+    &__btn {
+      top: 160px
     }
   }
 
@@ -1274,6 +1311,30 @@
     &__link {
       font-size: 30px;
       line-height: 30px;
+    }
+  }
+}
+
+@media (max-width: 446.98px) {
+  .set-item {
+    &__btn {
+      top: 200px;
+    }
+  }
+}
+
+@media (max-width: 358.98px) {
+  .set-item {
+    &__btn {
+      top: 240px;
+
+      &-prev {
+        left: -10px;
+      }
+
+      &-next {
+        right: -10px;
+      }
     }
   }
 }
