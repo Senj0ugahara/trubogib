@@ -122,3 +122,113 @@
     }
   }
 }
+
+.table-mobile {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+
+  &__col {
+    background-color: var(--light-color);
+    border: 3px solid rgba(134, 134, 134, 0.1);
+    box-shadow: 1px 4px 15px rgba(0, 0, 0, .1);
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    padding: 40px;
+    border-bottom: 3px solid rgba(134, 134, 134, 0.1);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #323232;
+    text-align: center;
+
+    &--dino {
+      font-weight: 700;
+    }
+  }
+
+  &__image {
+    padding: 20px 0;
+    border-bottom: 3px solid rgba(134, 134, 134, 0.1);
+  }
+
+  &__text {
+    padding: 20px 24px 20px 44px;
+    border-bottom: 3px solid rgba(134, 134, 134, 0.1);
+  }
+
+  &__desc {
+    margin: 0;
+    padding-left: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--text-color);
+    background-image: url(../images/cross.svg);
+    background-position: left top 6px;
+    background-repeat: no-repeat;
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+
+    &--dino {
+      background-image: url(../images/check.svg);
+      font-weight: 600;
+    }
+
+    span {
+      font-weight: 700;
+    }
+
+    .green {
+      color: var(--green-color)
+    }
+
+    .big {
+      font-size: 25px;
+    }
+  }
+
+  &__prices {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  &__info {
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: var(--text-color);
+  }
+
+  &__price {
+    display: block;
+    font-weight: 900;
+    &--old {
+      margin-bottom: 20px;
+      font-size: 30px;
+      line-height: 22px;
+      text-decoration-line: line-through;
+      color: #A7A7A7;
+    }
+
+    &--now {
+      font-size: 50px;
+      line-height: 22px;
+      color: #DF2626;
+    }
+
+    &--dino {
+      margin-bottom: 20px;
+      color: var(--green-color);
+    }
+  }
+}

@@ -46,7 +46,7 @@ $(document).ready(function() {
   });
 });
 
-const swiper = new Swiper('.swiper', {
+const swiper1 = new Swiper('.swiper', {
   loop: true,
   slidesPerView: 1,
   spaceBetween: 30,
@@ -69,5 +69,17 @@ const swiper = new Swiper('.swiper', {
     1650: {
       slidesPerView: 4,
     }
+  },
+});
+
+const swiper2 = new Swiper('.characteristics-swiper', {
+  loop: true,
+  slidesPerView: 1,
+  spaceBetween: 30,
+
+  // Navigation arrows
+  navigation: {
+      nextEl: '.characteristics-icon-next',
+      prevEl: '.characteristics-icon-prev',
   },
 });

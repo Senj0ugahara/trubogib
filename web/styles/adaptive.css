@@ -645,52 +645,13 @@
   .wares-table__col {
     padding: 0;
   }
-  .table thead {
+  .table {
     display: none;
   }
-  .table__image {
-    display: none !important;
-  }
-  .table__empty {
-    display: none !important;
-  }
-  .table tr, .table td {
-    display: block;
-    border: none;
-  }
-  .table__col {
-    width: 100% !important;
-    border-bottom: 3px solid rgba(134, 134, 134, 0.1) !important;
-  }
-  .table__text {
-    padding: 15px 60px 15px 220px;
-    background-position: right 20px top 20px;
-  }
-  .table__text::before {
-    content: attr(data-label);
-    position: absolute;
-    left: 20px;
-    width: 180px;
-    font-size: 18px;
-    font-weight: 700;
-    text-align: left;
-  }
-  .table__prices {
-    position: relative;
-    padding: 15px 60px 15px 220px;
-    text-align: right;
-  }
-  .table__prices::before {
-    content: attr(data-label);
-    position: absolute;
-    left: 20px;
-    width: 180px;
-    font-size: 18px;
-    font-weight: 700;
-    text-align: left;
-  }
-  .table__prices:nth-child(3) {
-    border: none !important;
+  .table-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .information__buttons {
     -webkit-box-orient: vertical;
@@ -722,19 +683,11 @@
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
   }
-  .characteristics-section__table-title {
-    padding: 15px 10px 15px !important;
-    font-size: 16px;
+  .characteristics-section__table {
+    display: none;
   }
-  .characteristics-section__table-col {
-    padding: 10px;
-  }
-  .characteristics-section__table-item {
-    font-size: 16px;
-  }
-  .characteristics-section__table-desc {
-    margin: 0;
-    font-size: 16px;
+  .characteristics-mobile {
+    display: block;
   }
   .kit__buy {
     -webkit-box-orient: vertical;
@@ -774,42 +727,6 @@
   .hero-buy__prices {
     margin-right: 0;
     margin-bottom: 40px;
-  }
-  .table__text {
-    padding: 50px 20px 50px;
-    background-position: bottom 10px center;
-  }
-  .table__text::before {
-    content: attr(data-label);
-    position: absolute;
-    top: 20px;
-    width: 90%;
-    font-size: 18px;
-    font-weight: 700;
-    text-align: center;
-  }
-  .table__desc {
-    margin-top: 40px;
-    text-align: center;
-  }
-  .table__prices {
-    padding: 50px 20px 50px;
-    text-align: center;
-  }
-  .table__prices::before {
-    content: attr(data-label);
-    position: absolute;
-    top: 20px;
-    width: 90%;
-    font-size: 18px;
-    font-weight: 700;
-    text-align: center;
-  }
-  .table__prices .btn {
-    width: 200px;
-  }
-  .table__info {
-    margin-top: 40px;
   }
   .video-reviews__list {
     -ms-grid-columns: (1fr)[1];

@@ -852,62 +852,11 @@
   }
 
   .table {
-    thead {
-      display: none;
-    }
+    display: none;
+  }
 
-    &__image {
-      display: none!important;
-    }
-
-    &__empty {
-      display: none!important;
-    }
-
-    tr, td {
-      display: block;
-      border: none;
-    }
-
-    &__col {
-      width: 100%!important;
-      border-bottom: 3px solid rgba(134, 134, 134, 0.1)!important;
-    }
-
-    &__text {
-      padding: 15px 60px 15px 220px;
-      background-position: right 20px top 20px;
-
-      &::before {
-        content: attr(data-label);
-        position: absolute;
-        left: 20px;
-        width: 180px;
-        font-size: 18px;
-        font-weight: 700;
-        text-align: left;
-      }
-    }
-
-    &__prices {
-      position: relative;
-      padding: 15px 60px 15px 220px;
-      text-align: right;
-
-      &::before {
-        content: attr(data-label);
-        position: absolute;
-        left: 20px;
-        width: 180px;
-        font-size: 18px;
-        font-weight: 700;
-        text-align: left;
-      }
-
-      &:nth-child(3) {
-        border: none!important;
-      }
-    }
+  .table-mobile {
+    display: flex;
   }
 
   .information {
@@ -949,24 +898,12 @@
 
   .characteristics-section {
     &__table {
-      &-title {
-        padding: 15px 10px 15px !important;
-        font-size: 16px;
-      }
-
-      &-col {
-        padding: 10px;
-      }
-
-      &-item {
-        font-size: 16px;
-      }
-
-      &-desc {
-        margin: 0;
-        font-size: 16px;
-      }
+      display: none;
     }
+  }
+
+  .characteristics-mobile {
+    display: block;
   }
 
   .kit {
@@ -1008,51 +945,6 @@
     &__prices {
       margin-right: 0;
       margin-bottom: 40px;
-    }
-  }
-
-  .table {
-    &__text {
-      padding: 50px 20px 50px;
-      background-position: bottom 10px center;
-
-      &::before {
-        content: attr(data-label);
-        position: absolute;
-        top: 20px;
-        width: 90%;
-        font-size: 18px;
-        font-weight: 700;
-        text-align: center;
-      }
-    }
-
-    &__desc {
-      margin-top: 40px;
-      text-align: center;
-    }
-
-    &__prices {
-      padding: 50px 20px 50px;
-      text-align: center;
-
-      &::before {
-        content: attr(data-label);
-        position: absolute;
-        top: 20px;
-        width: 90%;
-        font-size: 18px;
-        font-weight: 700;
-        text-align: center;
-      }
-
-      .btn {
-        width: 200px;
-      }
-    }
-
-    &__info {
-      margin-top: 40px;
     }
   }
 
