@@ -1540,8 +1540,8 @@ img {
 .video-reviews__list {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;
 }
 
@@ -1728,7 +1728,12 @@ img {
   margin-bottom: 25px;
 }
 
+.kit-items__image {
+  width: 30%;
+}
+
 .kit-items__info {
+  width: 60%;
   margin-left: 120px;
 }
 
@@ -1915,23 +1920,11 @@ img {
   font-weight: 800;
   font-size: 32px;
   line-height: 39px;
-  color: var(--black-color);
+  color: var(--text-color);
 }
 
 .sell-out__text span {
   color: #FF0000;
-}
-
-.sell-out__btn {
-  width: 226px;
-  height: 56px;
-  background: #F3EE00;
-  border-radius: 25px;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 39px;
-  color: var(--black-color);
-  text-align: center;
 }
 
 .manufacturer {

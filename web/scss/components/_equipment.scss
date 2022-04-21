@@ -58,22 +58,10 @@
     font-weight: 800;
     font-size: 32px;
     line-height: 39px;
-    color: var(--black-color);
+    color: var(--text-color);
 
     span {
       color: #FF0000;
     }
-  }
-
-  &__btn {
-    width: 226px;
-    height: 56px;
-    background: #F3EE00;
-    border-radius: 25px;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 39px;
-    color: var(--black-color);
-    text-align: center;
   }
 }

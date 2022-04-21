@@ -489,7 +489,12 @@
       }
     }
 
+    &__image {
+      width: 100%;
+    }
+
     &__info {
+      width: 100%;
       margin-left: 0;
     }
 
@@ -573,7 +578,7 @@
       transform: none;
 
       img {
-        height: 100%;
+        height: auto;
         margin-bottom: 50px;
       }
     }

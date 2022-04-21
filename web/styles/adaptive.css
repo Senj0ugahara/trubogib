@@ -361,7 +361,11 @@
   .kit-items__item img {
     margin-bottom: 20px;
   }
+  .kit-items__image {
+    width: 100%;
+  }
   .kit-items__info {
+    width: 100%;
     margin-left: 0;
   }
   .kit-items__title {
@@ -441,7 +445,7 @@
             transform: none;
   }
   .set__image img {
-    height: 100%;
+    height: auto;
     margin-bottom: 50px;
   }
   .set-item {
