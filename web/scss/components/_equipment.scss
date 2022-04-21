@@ -46,40 +46,6 @@
       margin-bottom: 15px;
     }
   }
-
-  &__image {
-    position: relative;
-
-    &::before, &::after {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-repeat: no-repeat;
-      font-size: 20px;
-      line-height: 24px;
-      color: var(--black-color);
-    }
-
-    &::before {
-      content: 'комплектация';
-      position: absolute;
-      left: -175px;
-      bottom: -14px;
-      width: 232px;
-      height: 276px;
-      background-image: url(../images/equipment-complitation.png);
-    }
-
-    &::after {
-      content: '5 подарков';
-      position: absolute;
-      right: 0;
-      bottom: -48px;
-      width: 217px;
-      height: 236px;
-      background-image: url(../images/equipment-gifts.png);
-    }
-  }
 }
 
 .sell-out {

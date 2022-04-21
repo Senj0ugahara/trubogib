@@ -217,7 +217,7 @@
   }
   .nav {
     position: absolute;
-    top: 155px;
+    top: 100px;
     left: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -553,14 +553,6 @@
   }
   .equipment__content {
     margin-bottom: 30px;
-  }
-  .equipment__image::before {
-    left: 0;
-    bottom: 0;
-  }
-  .equipment__image::after {
-    right: 0;
-    bottom: 0;
   }
   .sell-out {
     -webkit-box-orient: vertical;

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 :root {
   --content-width: 1520px;
   --container-offset: 15px;
@@ -1898,46 +1897,6 @@ img {
 
 .equipment__item:not(:last-child) {
   margin-bottom: 15px;
-}
-
-.equipment__image {
-  position: relative;
-}
-
-.equipment__image::before, .equipment__image::after {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-repeat: no-repeat;
-  font-size: 20px;
-  line-height: 24px;
-  color: var(--black-color);
-}
-
-.equipment__image::before {
-  content: 'комплектация';
-  position: absolute;
-  left: -175px;
-  bottom: -14px;
-  width: 232px;
-  height: 276px;
-  background-image: url(../images/equipment-complitation.png);
-}
-
-.equipment__image::after {
-  content: '5 подарков';
-  position: absolute;
-  right: 0;
-  bottom: -48px;
-  width: 217px;
-  height: 236px;
-  background-image: url(../images/equipment-gifts.png);
 }
 
 .sell-out {
