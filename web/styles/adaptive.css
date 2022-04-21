@@ -131,7 +131,9 @@
     margin: 0 auto;
   }
   .information-item__container {
-    background-image: none !important;
+    padding-top: 300px;
+    background-position: top 20px center !important;
+    background-size: 300px 260px !important;
   }
   .information-item__heading {
     text-align: left !important;
@@ -142,6 +144,9 @@
   }
   .information-item__list {
     max-width: none !important;
+  }
+  .information-item_three .information-item__container--third {
+    padding-top: 70px;
   }
   .characteristics-section__table-title {
     padding: 15px 0px 15px !important;
@@ -800,7 +805,7 @@
     line-height: 30px;
   }
   .information-item__container {
-    padding: 80px 20px;
+    padding: 300px 20px 80px;
   }
   .information-item__heading {
     font-size: 20px;
@@ -821,6 +826,9 @@
   .information-item__object span {
     font-size: 16px;
     line-height: 20px;
+  }
+  .information-item_three .information-item__container--third {
+    padding-top: 80px;
   }
   .information-items__desc {
     font-size: 16px;

@@ -199,7 +199,9 @@
 
   .information-item {
     &__container {
-      background-image: none!important;
+      padding-top: 300px;
+      background-position: top 20px center!important;
+      background-size: 300px 260px!important;
     }
 
     &__heading {
@@ -213,6 +215,12 @@
 
     &__list {
       max-width: none!important;
+    }
+
+    &_three {
+      .information-item__container--third {
+        padding-top: 70px;
+      }
     }
   }
 
@@ -1039,7 +1047,7 @@
     }
 
     &__container {
-      padding: 80px 20px;
+      padding: 300px 20px 80px;
     }
 
     &__heading {
@@ -1067,6 +1075,12 @@
       span {
         font-size: 16px;
         line-height: 20px;
+      }
+    }
+
+    &_three {
+      .information-item__container--third {
+        padding-top: 80px;
       }
     }
   }
